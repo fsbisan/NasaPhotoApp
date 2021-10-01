@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920076AB2707315C00866592 /* ImageRoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920076AA2707315C00866592 /* ImageRoverViewController.swift */; };
 		920734B22704BB7600E70327 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B12704BB7600E70327 /* UserActionCell.swift */; };
 		920734B42704EAA300E70327 /* PhotosCuriosityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */; };
 		920734B62705714500E70327 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B52705714500E70327 /* PhotoCell.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		66154B644DE96D7C1042223E /* Pods-NasaPhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaPhotoApp.release.xcconfig"; path = "Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		920076AA2707315C00866592 /* ImageRoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRoverViewController.swift; sourceTree = "<group>"; };
 		920734B12704BB7600E70327 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
 		920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCuriosityViewController.swift; sourceTree = "<group>"; };
 		920734B52705714500E70327 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				92F1FEF12700494C00D32787 /* MainViewController.swift */,
 				92F1FEF3270049F500D32787 /* ImageViewController.swift */,
 				920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */,
+				920076AA2707315C00866592 /* ImageRoverViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				92F1FEF82704402E00D32787 /* NetworkManager.swift in Sources */,
 				920734B62705714500E70327 /* PhotoCell.swift in Sources */,
 				920734B22704BB7600E70327 /* UserActionCell.swift in Sources */,
+				920076AB2707315C00866592 /* ImageRoverViewController.swift in Sources */,
 				92F1FEF22700494D00D32787 /* MainViewController.swift in Sources */,
 				92F1FED92700442700D32787 /* AppDelegate.swift in Sources */,
 				92F1FEF627006A5900D32787 /* PhotoOfADay.swift in Sources */,

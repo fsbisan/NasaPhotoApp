@@ -142,10 +142,43 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="aIZ-pj-lEu"/>
+                    <connections>
+                        <segue destination="wHS-Zs-W6C" kind="show" identifier="full Photo" id="J5i-cm-is1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18a-mR-bUh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2325" y="806"/>
+        </scene>
+        <!--Image Rover View Controller-->
+        <scene sceneID="khQ-tJ-yv9">
+            <objects>
+                <viewController id="wHS-Zs-W6C" customClass="ImageRoverViewController" customModule="NasaPhotoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jhx-xS-Hoo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yjH-yf-rOA">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Mo-Y8-ZXj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Mo-Y8-ZXj" firstAttribute="trailing" secondItem="yjH-yf-rOA" secondAttribute="trailing" id="6dU-Gb-59f"/>
+                            <constraint firstItem="yjH-yf-rOA" firstAttribute="leading" secondItem="8Mo-Y8-ZXj" secondAttribute="leading" id="G6J-yi-XxQ"/>
+                            <constraint firstItem="8Mo-Y8-ZXj" firstAttribute="bottom" secondItem="yjH-yf-rOA" secondAttribute="bottom" id="iaN-HT-DWg"/>
+                            <constraint firstItem="yjH-yf-rOA" firstAttribute="top" secondItem="8Mo-Y8-ZXj" secondAttribute="top" id="qOG-7V-FrT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ggO-m3-JV2"/>
+                    <connections>
+                        <outlet property="imageWithPhoto" destination="yjH-yf-rOA" id="1cX-1S-VVj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qfS-yo-7Ob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3247.5" y="805.9859154929577"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="sRY-vQ-kNj">
