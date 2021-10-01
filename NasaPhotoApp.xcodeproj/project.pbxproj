@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920734B22704BB7600E70327 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B12704BB7600E70327 /* UserActionCell.swift */; };
+		920734B42704EAA300E70327 /* PhotosCuriosityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */; };
+		920734B62705714500E70327 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920734B52705714500E70327 /* PhotoCell.swift */; };
 		92F1FED92700442700D32787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FED82700442700D32787 /* AppDelegate.swift */; };
 		92F1FEDB2700442700D32787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEDA2700442700D32787 /* SceneDelegate.swift */; };
-		92F1FEDD2700442700D32787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEDC2700442700D32787 /* ViewController.swift */; };
 		92F1FEE02700442700D32787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F1FEDE2700442700D32787 /* Main.storyboard */; };
 		92F1FEE22700442C00D32787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F1FEE12700442C00D32787 /* Assets.xcassets */; };
 		92F1FEE52700442C00D32787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F1FEE32700442C00D32787 /* LaunchScreen.storyboard */; };
+		92F1FEF22700494D00D32787 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEF12700494C00D32787 /* MainViewController.swift */; };
+		92F1FEF4270049F500D32787 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEF3270049F500D32787 /* ImageViewController.swift */; };
+		92F1FEF627006A5900D32787 /* PhotoOfADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEF527006A5900D32787 /* PhotoOfADay.swift */; };
+		92F1FEF82704402E00D32787 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1FEF72704402E00D32787 /* NetworkManager.swift */; };
+		C1902487A99C14C2E9E8ACED /* Pods_NasaPhotoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA478053E1CDCFF5E39761DD /* Pods_NasaPhotoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66154B644DE96D7C1042223E /* Pods-NasaPhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaPhotoApp.release.xcconfig"; path = "Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		920734B12704BB7600E70327 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
+		920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCuriosityViewController.swift; sourceTree = "<group>"; };
+		920734B52705714500E70327 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		92F1FED52700442700D32787 /* NasaPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F1FED82700442700D32787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92F1FEDA2700442700D32787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92F1FEDC2700442700D32787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92F1FEDF2700442700D32787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92F1FEE12700442C00D32787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92F1FEE42700442C00D32787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92F1FEE62700442C00D32787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F1FEF12700494C00D32787 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		92F1FEF3270049F500D32787 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		92F1FEF527006A5900D32787 /* PhotoOfADay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOfADay.swift; sourceTree = "<group>"; };
+		92F1FEF72704402E00D32787 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AA478053E1CDCFF5E39761DD /* Pods_NasaPhotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaPhotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BFF3A49D9BBE099467DE53 /* Pods-NasaPhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaPhotoApp.debug.xcconfig"; path = "Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1902487A99C14C2E9E8ACED /* Pods_NasaPhotoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B729E9581E3BD84C862A8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA478053E1CDCFF5E39761DD /* Pods_NasaPhotoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8845868C01930C3A2ECC1B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFF3A49D9BBE099467DE53 /* Pods-NasaPhotoApp.debug.xcconfig */,
+				66154B644DE96D7C1042223E /* Pods-NasaPhotoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		920734B02704BB2C00E70327 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				920734B12704BB7600E70327 /* UserActionCell.swift */,
+				920734B52705714500E70327 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		92F1FECC2700442700D32787 = {
 			isa = PBXGroup;
 			children = (
 				92F1FED72700442700D32787 /* NasaPhotoApp */,
 				92F1FED62700442700D32787 /* Products */,
+				8845868C01930C3A2ECC1B78 /* Pods */,
+				1B729E9581E3BD84C862A8F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,68 @@
 		92F1FED72700442700D32787 /* NasaPhotoApp */ = {
 			isa = PBXGroup;
 			children = (
-				92F1FED82700442700D32787 /* AppDelegate.swift */,
-				92F1FEDA2700442700D32787 /* SceneDelegate.swift */,
-				92F1FEDC2700442700D32787 /* ViewController.swift */,
-				92F1FEDE2700442700D32787 /* Main.storyboard */,
-				92F1FEE12700442C00D32787 /* Assets.xcassets */,
-				92F1FEE32700442C00D32787 /* LaunchScreen.storyboard */,
-				92F1FEE62700442C00D32787 /* Info.plist */,
+				920734B02704BB2C00E70327 /* View */,
+				92F1FEF92704404600D32787 /* Services */,
+				92F1FEF02700459200D32787 /* Models */,
+				92F1FEED2700447C00D32787 /* App */,
+				92F1FEEE2700452600D32787 /* ViewControllers */,
+				92F1FEEC2700445B00D32787 /* StoryBoards */,
+				92F1FEEF2700454700D32787 /* Resources */,
 			);
 			path = NasaPhotoApp;
+			sourceTree = "<group>";
+		};
+		92F1FEEC2700445B00D32787 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEDE2700442700D32787 /* Main.storyboard */,
+				92F1FEE32700442C00D32787 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		92F1FEED2700447C00D32787 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEE62700442C00D32787 /* Info.plist */,
+				92F1FED82700442700D32787 /* AppDelegate.swift */,
+				92F1FEDA2700442700D32787 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92F1FEEE2700452600D32787 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEF12700494C00D32787 /* MainViewController.swift */,
+				92F1FEF3270049F500D32787 /* ImageViewController.swift */,
+				920734B32704EAA300E70327 /* PhotosCuriosityViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92F1FEEF2700454700D32787 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEE12700442C00D32787 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92F1FEF02700459200D32787 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEF527006A5900D32787 /* PhotoOfADay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92F1FEF92704404600D32787 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92F1FEF72704402E00D32787 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92F1FEE92700442C00D32787 /* Build configuration list for PBXNativeTarget "NasaPhotoApp" */;
 			buildPhases = (
+				C3DC17A9CC02E0D6AE29871F /* [CP] Check Pods Manifest.lock */,
 				92F1FED12700442700D32787 /* Sources */,
 				92F1FED22700442700D32787 /* Frameworks */,
 				92F1FED32700442700D32787 /* Resources */,
+				43B62BC3473681A76C7161E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +233,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43B62BC3473681A76C7161E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NasaPhotoApp/Pods-NasaPhotoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DC17A9CC02E0D6AE29871F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaPhotoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92F1FED12700442700D32787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F1FEDD2700442700D32787 /* ViewController.swift in Sources */,
+				92F1FEF82704402E00D32787 /* NetworkManager.swift in Sources */,
+				920734B62705714500E70327 /* PhotoCell.swift in Sources */,
+				920734B22704BB7600E70327 /* UserActionCell.swift in Sources */,
+				92F1FEF22700494D00D32787 /* MainViewController.swift in Sources */,
 				92F1FED92700442700D32787 /* AppDelegate.swift in Sources */,
+				92F1FEF627006A5900D32787 /* PhotoOfADay.swift in Sources */,
+				920734B42704EAA300E70327 /* PhotosCuriosityViewController.swift in Sources */,
+				92F1FEF4270049F500D32787 /* ImageViewController.swift in Sources */,
 				92F1FEDB2700442700D32787 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +432,7 @@
 		};
 		92F1FEEA2700442C00D32787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BFF3A49D9BBE099467DE53 /* Pods-NasaPhotoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +440,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9UD5PWR3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NasaPhotoApp/Info.plist;
+				INFOPLIST_FILE = NasaPhotoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,12 +455,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92F1FEEB2700442C00D32787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66154B644DE96D7C1042223E /* Pods-NasaPhotoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +469,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9UD5PWR3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NasaPhotoApp/Info.plist;
+				INFOPLIST_FILE = NasaPhotoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
