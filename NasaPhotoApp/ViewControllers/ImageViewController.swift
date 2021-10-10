@@ -28,17 +28,18 @@ class ImageViewController: UIViewController {
     private func setDataOfPhoto(in photoOfADay: PhotoOfADay) {
         titleLabel.text = photoOfADay.title
         explanation.text = photoOfADay.explanation
-        activityIndicator.stopAnimating()
         titleLabel.isHidden = false
         NetworkManager.shared.fetchImage(from: photoOfADay.url) { result in
             switch result {
             case .success(let imageData):
                 self.imageView.image = UIImage(data: imageData)
+                self.activityIndicator.stopAnimating()
             case .failure(let error):
                 print(error)
             }
         }
     }
+    
     func alamofireGetPhotoOfADayButtonPressed() {
         NetworkManager.shared.fetchPhotoWithAlamofire(url: Links.photoOfADayLink.rawValue) { result in
             switch result {
